@@ -152,7 +152,7 @@ For developers using [Serverless Framework][4] to deploy serverless applications
 
 **Example**:
 
-{{< highlight json "hl_lines=4-7" >}}
+{{< highlight json "hl_lines=5-5" >}}
 "Lambda Read From DynamoDB": {
       "Type": "Task",
       "Resource": "arn:aws:states:::lambda:invoke",
@@ -166,7 +166,7 @@ For developers using [Serverless Framework][4] to deploy serverless applications
 
 Alternatively, if you have business logic defined in the payload, you could also use the following:
 
-{{< highlight json "hl_lines=8-10" >}}
+{{< highlight json "hl_lines=7-9" >}}
 "Lambda Read From DynamoDB": {
       "Type": "Task",
       "Resource": "arn:aws:states:::lambda:invoke",
