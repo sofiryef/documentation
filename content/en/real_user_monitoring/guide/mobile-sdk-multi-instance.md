@@ -44,7 +44,7 @@ WebViewTracking.enable(webView, allowedHosts, namedSdkInstance)
 ```
 
 **Note**:
-For our instrumentation to work on the WebView component, it is very important that the JavaScript is enabled on the WebView. To enable it, you can use the following code snippet:
+In order for instrumentation to work on the WebView component, it is very important that the JavaScript is enabled on the WebView. To enable it, you can use the following code snippet:
 
 ```kotlin
     webView.settings.javaScriptEnabled = true
